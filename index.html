@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <style>
+        body {
+    background-color:#333;
+    margin:0;
+    padding:0;
+}
+.contact-form{
+    background-color:white;
+    width:85%;
+    max-width:600px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:absolute ;
+    padding:20px;
+    border:border-box;
+    border-radius:15px;
+}
+.contact-form h1{
+    text-transform:uppercase;
+    letter-spacing:2px;
+    border-bottom:solid 1px black;
+    margin:30px auto;
+    text-align:center ;
+}
+.contact-form input[type="submit"]{
+    width:100%;
+    padding:7px;
+    margin-bottom:10px;
+    text-transform:uppercase;
+    background-color:black;
+    color:white;
+    border:none;
+    outline:none;
+}
+.textb{
+    border:solid 2px black;
+    margin-bottom:10px;
+    padding:10px;
+    border-radius:10px;
+}
+.textb label{
+    display:block;
+    text-align:left;
+    margin-bottom:10px;
+    font-size:10px;
+}
+.textb input,.textb textarea{
+    background:none;
+    outline:none;
+    border:none;
+    width:100%;
+    
+}
+    </style>
+    <body>
+    
+    <div class="contact-form">
+        <h1>Contact Us</h1>
+        
+        <div class="textb">
+        <label>Email :</label>
+        <input type="email" placeholder="Enter Email Here">
+        </div>
+    
+        <div class="textb">
+        <label>Subject :</label>
+        <input type="text" placeholder="Enter Subject here">
+        </div>
+    
+        <div class="textb">
+        <label>Message :</label>
+        <textarea placeholder="Enter Your Message Here"></textarea>
+        </div>
+        
+        <input type="submit" value="Submit">
+    </div>
+        
+    </body>
+</html>
